@@ -1,0 +1,23 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "sass",
+  "main": "index.js",
+  "dependencies": {
+    "sass": "^1.49.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanicCMGT/AccessibilityProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SanicCMGT/AccessibilityProject/issues"
+  },
+  "homepage": "https://github.com/SanicCMGT/AccessibilityProject#readme"
+}
