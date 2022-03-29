@@ -1,21 +1,17 @@
-import React from 'react';
-import React, { Component } from "react";
-
-class Toggle extends Component {
+const e = React.createElement;
+class Toggle extends React.Component {
   render() {
-    return (
-      <div className="button">
-        <input
-          type="button"
-          className="toggleSwitch"
-          name="toggleSwitch"
-          id="toggleSwitch"
-        />
-        <label className="toggle-switch-label" htmlFor="toggleSwitch">
-          <span className="toggle-switch-inner" />
-          <span className="toggle-switch-switch" />
-        </label>
-      </div>
+    return e(
+      'button',
+      {onClick: removeFrame}
     );
   }
 }
+
+function removeFrame(){
+  const iframe = document.getElementById("iframe")
+  iframe.remove()
+}
+
+const container = document.getElementById("buttonContainer")
+ReactDOM.render(e(Toggle), container);

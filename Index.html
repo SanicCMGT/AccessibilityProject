@@ -4,16 +4,13 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/index.css">
-    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
 	<title>Accessibility Project Oasen</title>
 </head>
-<body>
-	<label class="switch">
-		<input type="checkbox">
-		<span class="slider round"></span>
-		Toegankelijkheidsmodus
-	</label>
-	<iframe src="https://www.oasen.nl" title="Oasen water"></iframe>
+<body id="body">
+	<div id="buttonContainer"></div>
+	<iframe id="iframe" src="https://www.oasen.nl" title="Oasen water"></iframe>
+	<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+	<script src="/components/Toggle.js"></script>
 </body>
 </html>
