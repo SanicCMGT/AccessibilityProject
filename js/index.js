@@ -38,3 +38,28 @@ function setupPage(){
     buttonContainer.appendChild(newsBtn)
     buttonContainer.appendChild(MOBtn)
 }
+
+function addFooter() {
+    let footer = document.createElement("footer")
+    let body = document.getElementById("body")
+    footer.innerHTML += 
+      "<h3>Contact</h3><br>"
+      "<p><b>Adres</b></p>"
+      "<p>Oasen N.V.</p>"
+      "<p>Nieuwe Gouwe O.Z. 3</p>"
+      "<p>2801 SB Gouda</p></p>"
+      "<p><b>Telefoonnummer</b></p>"
+      "<p>0182 - 59 35 30</p>";
+
+    body.appendChild(footer)
+
+}
+
+function addHeader() {
+    let header = document.createElement("header")
+    let body = document.getElementById("body")
+    document.getElementById("header").innerHTML += 
+      "<h1>Oasen</h1><br>";
+    
+    body.appendChild(header)
+}
