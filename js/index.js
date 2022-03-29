@@ -13,6 +13,9 @@ function setupPage(){
     let aBtn = document.getElementById("accessBtn")
     aBtn.remove()
 
+    //addheader
+    addHeader()
+
     let buttonContainer = document.createElement("div")
     buttonContainer.id = "buttonContainer"
     let body = document.getElementById("body")
@@ -22,6 +25,8 @@ function setupPage(){
     let storingBtn = document.createElement("div")
     let newsBtn = document.createElement("div")
     let MOBtn = document.createElement("div")
+
+    mSBtn.addEventListener("click", setupMeterstandPage)
 
     mSBtn.classList.add("block")
     storingBtn.classList.add("block")
@@ -37,6 +42,10 @@ function setupPage(){
     buttonContainer.appendChild(storingBtn)
     buttonContainer.appendChild(newsBtn)
     buttonContainer.appendChild(MOBtn)
+
+
+    //addfooter
+    addFooter()
 }
 
 function addFooter() {
@@ -58,8 +67,25 @@ function addFooter() {
 function addHeader() {
     let header = document.createElement("header")
     let body = document.getElementById("body")
-    document.getElementById("header").innerHTML += 
+    header.innerHTML += 
       "<h1>Oasen</h1><br>";
     
     body.appendChild(header)
+}
+
+function setupMeterstandPage(){
+    let buttonContainer = document.getElementById("buttonContainer")
+    let blocks = document.getElementsByClassName("block")
+    let length = blocks.length
+    for(let i = 0; i<length; i++){
+        blocks[0].remove()
+    }
+
+    let icon = document.createElement("svg")
+    let h1Meterstand = document.createElement("h1")
+
+    h1Meterstand.innerHTML = "Meterstand doorgeven"
+
+    
+
 }
