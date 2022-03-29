@@ -51,16 +51,22 @@ function setupPage(){
 function addFooter() {
     let footer = document.createElement("footer")
     let body = document.getElementById("body")
+
+    let adres = document.createElement("div")
+    let email = document.createElement("div")
+    let telephone = document.createElement("div")
+
+    adres.innerHTML = "Oasen N.V. Nieuwe Gouwe O.Z. 3, 2801 SB Gouda"
+    email.innerHTML = "info@oasen.nl"
+    telephone.innerHTML = "0182 - 59 35 30"
+
     footer.innerHTML += 
       "<h3>Contact</h3><br>"
-      "<p><b>Adres</b></p>"
-      "<p>Oasen N.V.</p>"
-      "<p>Nieuwe Gouwe O.Z. 3</p>"
-      "<p>2801 SB Gouda</p></p>"
-      "<p><b>Telefoonnummer</b></p>"
-      "<p>0182 - 59 35 30</p>";
-
-    body.appendChild(footer)
+    
+      body.appendChild(footer)
+      footer.appendChild(adres)
+      footer.appendChild(email)
+      footer.appendChild(telephone)
 
 }
 
