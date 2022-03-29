@@ -74,11 +74,15 @@ function setupPage(){
 
 function addFooter() {
     let footer = document.createElement("footer")
+    footer.id = "footer"
     let body = document.getElementById("body")
 
     let adres = document.createElement("div")
+    adres.id = "adres"
     let email = document.createElement("div")
+    email.id = "email"
     let telephone = document.createElement("div")
+    telephone = "telephone"
 
     adres.innerHTML = "Oasen N.V. Nieuwe Gouwe O.Z. 3, 2801 SB Gouda"
     email.innerHTML = "info@oasen.nl"
@@ -96,6 +100,7 @@ function addFooter() {
 
 function addHeader() {
     let header = document.createElement("header")
+    header.id = "header"
     let body = document.getElementById("body")
     header.innerHTML += 
       "<h1>Oasen</h1><br>";
