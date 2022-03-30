@@ -160,6 +160,39 @@ iframe {
 }
 
 /*Stap 2*/
+#nextButton {
+  background-color: #FF6C00;
+}
 
+#prevButton {
+  background-color: #FF6C00;
+}
+
+/*Stap 3*/
+#topText{
+
+}
+#email{
+
+}
+#confirmEmail {
+
+}
+
+#mobile {
+
+}
+
+#phone {
+
+}
+
+/* Stap 4 */
+/* 
+topText{
+
+}
+
+*/
 
 /*# sourceMappingURL=index.css.map */
