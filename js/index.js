@@ -78,18 +78,18 @@ function addFooter() {
     let body = document.getElementById("body")
 
     let adres = document.createElement("div")
-    adres.id = "adres"
+    adres.classList.add("footer_item")
     let email = document.createElement("div")
-    email.id = "email"
+    email.classList.add("footer_item")
     let telephone = document.createElement("div")
-    telephone.id = "telephone"
+    telephone.classList.add("footer_item")
 
     adres.innerHTML = "Oasen N.V. Nieuwe Gouwe O.Z. 3, 2801 SB Gouda"
     email.innerHTML = "info@oasen.nl"
     telephone.innerHTML = "0182 - 59 35 30"
 
     footer.innerHTML += 
-      "<h3>Contact</h3><br>"
+      "<h2>Contact</h2><br>"
     
       body.appendChild(footer)
       footer.appendChild(adres)
@@ -103,7 +103,7 @@ function addHeader() {
     header.id = "header"
     let body = document.getElementById("body")
     header.innerHTML += 
-      "<h1>Oasen</h1><br>";
+      "<object data='happy.svg' width='300' height='300'> </object>";
     
     body.appendChild(header)
 }
