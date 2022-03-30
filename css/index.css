@@ -35,8 +35,8 @@ iframe {
   margin: auto;
   margin-top: 100px;
   display: grid;
-  gap: 20px 20px;
-  grid-template-columns: auto auto;
+  gap: 10px 10px;
+  grid-template-columns: auto auto auto auto;
   background-color: white;
   padding: 10px;
   top: 100px;
@@ -54,6 +54,11 @@ iframe {
   font-size: 30px;
   text-align: center;
   color: white;
+}
+
+.blockImg {
+  background-color: #26B4F4;
+
 }
 
 /*Footer & Contact*/
@@ -76,6 +81,60 @@ iframe {
   padding: 20px;
   font-size: 16px;
   text-align: center;
+}
+
+/*Meterstand */
+#stepCounter {
+  text-align: center;
+}
+
+#formContainer {
+
+}
+
+/* Forms */
+.formLabel {
+
+}
+
+#pcInput {
+  background-color: lightgray;
+}
+
+#tgInput {
+  background-color: lightgray;
+}
+
+#msInput1 {
+  background-color: lightgray;
+}
+
+#msInput2 {
+  background-color: lightgray;
+}
+
+#dateInput {
+  background-color: lightgray;
+}
+
+.volgendeBtn {
+  background-color: #26B4F4;
+  color: white;
+}
+
+/* Hints */
+#hintContainer {
+  float: right;
+  display: grid;
+  grid-template-columns: auto;
+  gap: 50px;
+}
+
+#toegangsHint {
+  background-color: gray;
+}
+#meterstandHint {
+  background-color: gray;
 }
 
 
