@@ -115,6 +115,7 @@ function setupMeterstandPage(){
     let icon = document.createElement("object")
     icon.data = "/assets/meterstand-black.svg"
     icon.type = "image/svg+xml"
+    icon.classList.add("icon")
     let h1Meterstand = document.createElement("h1")
     h1Meterstand.innerHTML = "Meterstand doorgeven"
     h1Meterstand.id = "h1Meter"
