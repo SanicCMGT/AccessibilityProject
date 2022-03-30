@@ -27,24 +27,24 @@ function setupPage(){
     let newsBtn = document.createElement("div")
     let MOBtn = document.createElement("div")
 
-    let mSImg = document.createElement("img")
-    let storingImg = document.createElement("img")
-    let newsImg = document.createElement("img")
-    let MOImg = document.createElement("img")
+    let mSImg = document.createElement("object")
+    let storingImg = document.createElement("object")
+    let newsImg = document.createElement("object")
+    let MOImg = document.createElement("object")
 
     mSImg.classList.add("blockImg")
     storingImg.classList.add("blockImg")
     newsImg.classList.add("blockImg")
     MOImg.classList.add("blockImg")
 
-    mSImg.src = "/assets/meter-white.png"
-    mSImg.alt = "meter icon"
-    storingImg.src = "/assets/pipe.png"
-    storingImg.alt = "Storing icon"
-    newsImg.src = "/assets/news.png"
-    newsImg.alt = "news icon"
-    MOImg.src = "/assets/account.png"
-    MOImg.alt = "account icon"
+    mSImg.type = "image/svg+xml"
+    mSImg.data = "/assets/meterstand.svg"
+    storingImg.type = "image/svg+xml"
+    storingImg.data = "/assets/storing.svg"
+    newsImg.type = "image/svg+xml"
+    newsImg.data = "/assets/nieuws.svg"
+    MOImg.type = "image/svg+xml"
+    MOImg.data = "/assets/account.svg"
 
     mSBtn.addEventListener("click", setupMeterstandPage)
 
@@ -52,19 +52,19 @@ function setupPage(){
     storingBtn.classList.add("block")
     newsBtn.classList.add("block")
     MOBtn.classList.add("block")
+    mSBtn.appendChild(mSImg)
+    storingBtn.appendChild(storingImg)
+    newsBtn.appendChild(newsImg)
+    MOBtn.appendChild(MOImg)
 
-    mSBtn.innerHTML = "Meterstand doorgeven"
-    storingBtn.innerHTML = "Storingen"
-    newsBtn.innerHTML = "Nieuws"
-    MOBtn.innerHTML = "Mijn Oasen"
+    mSBtn.innerHTML += "<h2>Meterstand doorgeven</h2>"
+    storingBtn.innerHTML += "<h2>Storingen</h2>"
+    newsBtn.innerHTML += "<h2>Nieuws</h2>"
+    MOBtn.innerHTML += "<h2>Mijn Oasen</h2>"
 
-    buttonContainer.appendChild(mSImg)
     buttonContainer.appendChild(mSBtn)
-    buttonContainer.appendChild(storingImg)
     buttonContainer.appendChild(storingBtn)
-    buttonContainer.appendChild(newsImg)
     buttonContainer.appendChild(newsBtn)
-    buttonContainer.appendChild(MOImg)
     buttonContainer.appendChild(MOBtn)
 
 
@@ -112,9 +112,9 @@ function setupMeterstandPage(){
     let buttonContainer = document.getElementById("buttonContainer")
     buttonContainer.innerHTML = ""
 
-    let icon = document.createElement("img")
-    icon.src = "/assets/meter.png"
-    icon.alt = "meter icon"
+    let icon = document.createElement("object")
+    icon.data = "/assets/meterstand-black.svg"
+    icon.type = "image/svg+xml"
     let h1Meterstand = document.createElement("h1")
     h1Meterstand.innerHTML = "Meterstand doorgeven"
     h1Meterstand.id = "h1Meter"
@@ -257,10 +257,12 @@ function page2(){
     }
     let nextButton = document.createElement("button")
     nextButton.innerHTML = "volgende"
+    nextButton.classList.add("volgendeBtn")
     nextButton.addEventListener("click" , page3)
 
     let prevButton = document.createElement("button")
     prevButton.innerHTML = "vorige"
+    prevButton.classList.add("vorigeBtn")
     prevButton.addEventListener("click", setupMeterstandPage)
 
     let akkoord = null
@@ -353,10 +355,12 @@ function page3(){
 
     let nextButton = document.createElement("button")
     nextButton.innerHTML = "volgende"
+    nextButton.classList.add("volgendeBtn")
     nextButton.addEventListener("click" , page4)
 
     let prevButton = document.createElement("button")
     prevButton.innerHTML = "vorige"
+    prevButton.classList.add("vorigeBtn")
     prevButton.addEventListener("click", page2)
 
     emailLabel.innerHTML = "E-mailadres"
