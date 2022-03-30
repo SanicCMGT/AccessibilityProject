@@ -1,7 +1,26 @@
+@font-face {
+  font-family: 'Strada';
+  src: url('/fonts/Strada-Black.woff2') format('woff2'),
+      url('/fonts/Strada-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Strada';
+  src: url('/fonts/Strada-Light.woff') format('woff2'),
+      url('/fonts/Strada-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   margin: 0;
   width: 100vw;
   height: 100vh;
+
 }
 
 iframe {
@@ -52,6 +71,10 @@ iframe {
   font-size: 30px;
   text-align: center;
   color: white;
+
+  font-family: 'Strada';
+  font-weight: 900;
+  font-style: normal;
 
   /* Rectangle 14 */
 
