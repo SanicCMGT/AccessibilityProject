@@ -176,6 +176,9 @@ iframe {
   background-color: gray;
 }
 
+.arrow {
+  pointer-events: none;
+}
 
 
 /*# sourceMappingURL=index.css.map */
