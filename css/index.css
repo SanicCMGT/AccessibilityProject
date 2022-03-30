@@ -48,12 +48,22 @@ iframe {
 
 .block {
   background-color: #26B4F4;
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  border-radius: 20%;
   padding: 20px;
   font-size: 30px;
   text-align: center;
   color: white;
+
+  /* Rectangle 14 */
+
+  /* position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%; */
+
+  background: #109EDE;
+  border-radius: 10px;
+
 }
 
 .blockImg {
@@ -88,24 +98,16 @@ iframe {
   text-align: center;
 }
 
-/* Forms */
-
 #formContainer {
-  display: grid;
   margin: auto;
-  text-align: left;
-  width: 100%;
-  height: auto;
+  width: 50%;
   padding: 10px;
-  width: fit-content;
-  position: absolute;
-  left: 38%;
-  top: 30%;
 
 }
 
+/* Forms */
 .formLabel {
-
+  grid-template-columns: auto;
 }
 
 #pcInput {
@@ -118,24 +120,18 @@ iframe {
 
 #msInput1 {
   background-color: lightgray;
-  width: 30%;
 }
 
 #msInput2 {
   background-color: lightgray;
-  width: 15%;
-  position: relative;
-  top: -39px;
-  left: 70px;
 }
 
 #dateInput {
   background-color: lightgray;
-  position: relative;
 }
 
 .volgendeBtn {
-  background-color: #FF6C00;
+  background-color: #26B4F4;
   color: white;
 }
 
@@ -145,11 +141,6 @@ iframe {
   display: grid;
   grid-template-columns: auto;
   gap: 50px;
-  position: absolute;
-  width: 30px;
-  left: 60%;
-  top: 30%;
-
 }
 
 #toegangsHint {
@@ -159,40 +150,6 @@ iframe {
   background-color: gray;
 }
 
-/*Stap 2*/
-#nextButton {
-  background-color: #FF6C00;
-}
 
-#prevButton {
-  background-color: #FF6C00;
-}
-
-/*Stap 3*/
-#topText{
-
-}
-#email{
-
-}
-#confirmEmail {
-
-}
-
-#mobile {
-
-}
-
-#phone {
-
-}
-
-/* Stap 4 */
-/* 
-topText{
-
-}
-
-*/
 
 /*# sourceMappingURL=index.css.map */
