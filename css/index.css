@@ -132,6 +132,7 @@ iframe {
 }
 
 #formContainer {
+  display: grid;
   margin: auto;
   width: 50%;
   padding: 10px;
@@ -164,7 +165,7 @@ iframe {
 }
 
 .volgendeBtn {
-  background-color: #26B4F4;
+  background-color: #FF6C00;
   color: white;
 }
 
