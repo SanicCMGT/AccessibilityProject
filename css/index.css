@@ -88,16 +88,24 @@ iframe {
   text-align: center;
 }
 
+/* Forms */
+
 #formContainer {
+  display: grid;
   margin: auto;
-  width: 50%;
+  text-align: left;
+  width: 100%;
+  height: auto;
   padding: 10px;
+  width: fit-content;
+  position: absolute;
+  left: 38%;
+  top: 30%;
 
 }
 
-/* Forms */
 .formLabel {
-  grid-template-columns: auto;
+
 }
 
 #pcInput {
@@ -110,18 +118,24 @@ iframe {
 
 #msInput1 {
   background-color: lightgray;
+  width: 30%;
 }
 
 #msInput2 {
   background-color: lightgray;
+  width: 15%;
+  position: relative;
+  top: -39px;
+  left: 70px;
 }
 
 #dateInput {
   background-color: lightgray;
+  position: relative;
 }
 
 .volgendeBtn {
-  background-color: #26B4F4;
+  background-color: #FF6C00;
   color: white;
 }
 
@@ -131,6 +145,11 @@ iframe {
   display: grid;
   grid-template-columns: auto;
   gap: 50px;
+  position: absolute;
+  width: 30px;
+  left: 60%;
+  top: 30%;
+
 }
 
 #toegangsHint {
@@ -140,6 +159,7 @@ iframe {
   background-color: gray;
 }
 
+/*Stap 2*/
 
 
 /*# sourceMappingURL=index.css.map */
