@@ -57,10 +57,10 @@ function setupPage(){
     newsBtn.appendChild(newsImg)
     MOBtn.appendChild(MOImg)
 
-    mSBtn.innerHTML += "<h2>Meterstand doorgeven</h2>"
-    storingBtn.innerHTML += "<h2>Storingen</h2>"
-    newsBtn.innerHTML += "<h2>Nieuws</h2>"
-    MOBtn.innerHTML += "<h2>Mijn Oasen</h2>"
+    mSBtn.innerHTML += "<h2 class='text'>Meterstand doorgeven</h2>"
+    storingBtn.innerHTML += "<h2 class='text>Storingen</h2>"
+    newsBtn.innerHTML += "<h2 class='text>Nieuws</h2>"
+    MOBtn.innerHTML += "<h2 class='text>Mijn Oasen</h2>"
 
     buttonContainer.appendChild(mSBtn)
     buttonContainer.appendChild(storingBtn)

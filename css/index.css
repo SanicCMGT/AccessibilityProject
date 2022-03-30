@@ -218,6 +218,9 @@ iframe {
   border-radius: 5px;
 }
 
+.arrow {
+  pointer-events: none;
+}
 
 
 /*# sourceMappingURL=index.css.map */
