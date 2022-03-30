@@ -103,9 +103,9 @@ function addHeader() {
     header.id = "header"
     let body = document.getElementById("body")
     header.innerHTML += 
-      "<object data='happy.svg' width='300' height='300'> </object>";
-    
+    "<object data='happy.svg' width='300' height='300'> </object>";
     body.appendChild(header)
+
 }
 
 function setupMeterstandPage(){
