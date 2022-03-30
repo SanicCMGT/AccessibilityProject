@@ -41,9 +41,10 @@ iframe {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   background: #26B4F4;
+}
 
-
-  
+#accessBtn{
+  background-color: purple;
 }
 
 #header {
@@ -62,7 +63,7 @@ iframe {
   margin-top: 100px;
   display: grid;
   gap: 10px 10px;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: 80% 80%;
   background-color: white;
   padding: 10px;
   top: 100px;
@@ -70,6 +71,8 @@ iframe {
   justify-content: center;
   align-items: center;
   text-align: center;
+  display: grid;
+
 }
 
 .block {
