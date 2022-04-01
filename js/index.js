@@ -100,12 +100,13 @@ function addFooter() {
 
 function addHeader() {
     let header = document.createElement("header")
+    let logoImg = document.createElement("object")
     header.id = "header"
     let body = document.getElementById("body")
-    header.innerHTML += 
-    "<object data='happy.svg' width='300' height='300'> </object>";
+    logoImg.type = "image/svg+xml"
+    logoImg.data = "/assets/oasen.svg"
+    header.appendChild(logoImg)
     body.appendChild(header)
-
 }
 
 function setupMeterstandPage(){
