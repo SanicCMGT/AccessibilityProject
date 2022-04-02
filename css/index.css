@@ -299,5 +299,14 @@ h2 {
   pointer-events: none;
 }
 
+.logoImg {
+  pointer-events: none;
+}
+
+.bigImg {
+  width: 100vw;
+  height: 100vh;
+}
+
 
 /*# sourceMappingURL=index.css.map */

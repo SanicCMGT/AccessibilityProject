@@ -9,10 +9,13 @@ function setupBtn(){
 function setupPage(){
     //remove iframe before accessibility mode gets turned on
     let iframe = document.getElementById("iframe")
-    iframe.remove()
+    if (iframe !=null){
+        iframe.remove()
+    }
     let aBtn = document.getElementById("accessBtn")
-    aBtn.remove()
-
+    if (aBtn != null) {
+        aBtn.remove()
+    }
     //addheader
     addHeader()
 
@@ -100,13 +103,22 @@ function addFooter() {
 
 function addHeader() {
     let header = document.createElement("header")
+    let clickDiv = document.createElement("div")
     let logoImg = document.createElement("object")
+    clickDiv.addEventListener("click", returnHome)
+    logoImg.classList.add("logoImg")
     header.id = "header"
     let body = document.getElementById("body")
     logoImg.type = "image/svg+xml"
     logoImg.data = "/assets/oasen.svg"
-    header.appendChild(logoImg)
+    header.appendChild(clickDiv)
+    clickDiv.appendChild(logoImg)
     body.appendChild(header)
+}
+
+function returnHome(){
+    document.getElementsByTagName("body")[0].innerHTML = ""
+    setupPage()
 }
 
 function setupMeterstandPage(){
@@ -206,8 +218,10 @@ function setupMeterstandPage(){
     meterstandHint.innerHTML = "Noteer alleen de cijfers in het blauwe kader, voor de komma."
 
     let meterstandHintImg = document.createElement("img")
+    meterstandHintImg.id = "meterstandHintImg"
     meterstandHintImg.src = "/assets/meterstand.png"
     meterstandHintImg.alt = "uitleg over welke cijfers bedoelt worden op de meter."
+    meterstandHintImg.addEventListener("click", enlargeImg)
 
     //build page with appends
     buttonContainer.appendChild(icon)
@@ -230,8 +244,30 @@ function setupMeterstandPage(){
     formContainer.appendChild(dateInput)
     formContainer.appendChild(volgende)
 }
+let big = false
+function enlargeImg(){
+    let image = document.getElementById("meterstandHintImg")
+    if (big){
+        image.classList.remove("bigImg")
+        big = false
+    } else {
+        image.classList.add("bigImg")
+        big = true
+    }
+}
 
 function page2(){
+
+    let PCInput = document.getElementById("pcInput").value
+    let tgInput = document.getElementById("tgInput").value
+    let meterInput = document.getElementById("msInput1").value
+    let datumInput = document.getElementById("dateInput").value
+    console.log(PCInput, tgInput, meterInput, datumInput)
+
+    if (PCInput === "" || tgInput === "" || meterInput === "" || datumInput === ""){
+        alert("Een of meer benodigde velden zijn niet ingevuld.")
+        return
+    }
     //adds stuff to localstorage so you can access them later
     if(document.getElementById("dateInput")){
         localStorage.setItem('postcode', document.getElementById("pcInput").value)
@@ -427,6 +463,10 @@ function page3(){
 }
 
 function page4(){
+    if (document.getElementById("email").value === "" || document.getElementById("confirmEmail") === ""){
+        alert("Een of meer benodigde velden zijn niet ingevuld.")
+        return
+    }
     let stepCounter = document.getElementById("stepCounter")
     stepCounter.innerHTML = "stap 4/4"
     let formContainer = document.getElementById("formContainer")
