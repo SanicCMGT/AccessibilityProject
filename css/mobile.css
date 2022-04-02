@@ -1,0 +1,203 @@
+  @media screen and (max-width: 468px) {
+      
+      #header {
+        position: absolute;
+        color: white;
+        width: 100%;
+        height: 76px;
+        left: 0px;
+        top: 0px;
+        background-color: #26B4F4;
+      }
+      
+      /*Grid CSS*/
+      #buttonContainer{
+        margin: auto;
+        margin-top: 100px;
+        display: grid;
+        gap: 10px 10px;
+        grid-template-columns: 80% 80%;
+        background-color: white;
+        padding: 10px;
+        top: 100px;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: grid;
+      
+      }
+      
+      .block {
+        padding: 20px;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+      
+        font-family: 'Strada';
+        font-weight: 300;
+        font-style: normal;
+      
+        background: #109EDE;
+        border-radius: 10px;
+      
+      }
+      
+      
+      /*Footer & Contact*/
+      #footer{
+        position: fixed;
+        width: 100%;
+        height: 150px;
+        bottom: 0%;
+        background-color: #26B4F4;
+        color: white;
+        gap: 50px;
+        background-color: #26B4F4;
+        padding: 10px;
+      }
+      
+      /*Meterstand */
+      #stepCounter {
+        position: absolute;
+        width: 189px;
+        height: 32px;
+        left: 30px;
+        top: 230px;
+        font-family: 'Strada-Light';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 37px;
+        color: #000000;
+        text-align: left;
+      }
+      
+      .icon {
+        position: relative;
+        left: 50%;
+        right: 66.94%;
+        top: 20.94%;
+        bottom: 75.1%;
+      }
+      
+      #h1Meter {
+        position: relative;
+        width: 472px;
+        height: 119px;
+        font-family: 'Strada-Black';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30px;
+        color: #000000;
+        text-align: center;
+        left: -240px;
+      }
+      
+      #formContainer {
+        display: grid;
+        position: relative;
+        width: 200px;
+        height: 350px;
+        left: 140px;
+        top: 10px;
+        border:0px gray;
+      }
+      
+      /* Forms */
+      
+      .formLabel {
+        display: inline-block;
+        width: 140px;
+        text-align: left;
+      }
+      
+      #pcInput {
+        background-color: lightgray;
+      
+      }
+      
+      #tgInput {
+        background-color: lightgray;
+      }
+      
+      #msInput1 {
+        background-color: lightgray;
+      }
+      
+      #msInput2 {
+        background-color: lightgray;
+      }
+      
+      #dateInput {
+        background-color: lightgray;
+      }
+      
+      .volgendeBtn {
+        background-color: #FF6C00;
+        width: fit-content;
+        text-align: center;
+        position: relative;
+      
+        width: 195px;
+        height: 67px;
+        font-family: 'Strada-Black';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 37px;
+        color: #FFFFFF;
+      }
+      
+      .volgendeBtn , .vorigeBtn {
+        display:inline-block;
+        }
+      
+      .vorigeBtn {
+        background-color: #FF6C00;
+        width: fit-content;
+        text-align: center;
+        position: relative;
+        width: 195px;
+        height: 67px;
+        font-family: 'Strada-Black';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 37px;
+        color: #FFFFFF;
+      }
+      
+      /* Hints */
+      #hintContainer {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+      }
+      
+      #toegangsHint {
+        position: relative;
+        width: 151px;
+        height: 150px;
+        left: -200px;
+        top: 25px;
+        background: rgba(196, 196, 196, 0.98);
+        border-radius: 5px;
+      }
+      #meterstandHint {
+        position: relative;
+        width: 151px;
+        height: 150px;
+        left: -200px;
+        top: 25px;
+        background: rgba(196, 196, 196, 0.98);
+        border-radius: 5px;
+      }
+    
+    }
+  
+  
+  
+  
+  /*# sourceMappingURL=mobile.css.map */
+  
