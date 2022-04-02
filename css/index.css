@@ -154,8 +154,8 @@ iframe {
 #formContainer {
   display: grid;
   position: relative;
-  width: 716px;
-  height: 554px;
+  width: 650px;
+  height: 450px;
   left: 440px;
   top: 10px;
   border:0px gray;
@@ -195,9 +195,9 @@ iframe {
   width: fit-content;
   text-align: center;
   position: relative;
-
-  width: 195px;
-  height: 67px;
+  left: 500px;
+  width: 150px;
+  height: 55px;
   font-family: 'Strada-Black';
   font-style: normal;
   font-weight: 900;
@@ -215,8 +215,9 @@ iframe {
   width: fit-content;
   text-align: center;
   position: relative;
-  width: 195px;
-  height: 67px;
+  top: 65px;
+  width: 150px;
+  height: 55px;
   font-family: 'Strada-Black';
   font-style: normal;
   font-weight: 900;
