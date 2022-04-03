@@ -60,6 +60,10 @@ iframe {
   background-color: #26B4F4;
 }
 
+.logoImg {
+  padding: 15px;
+}
+
 /*Grid CSS*/
 #buttonContainer{
   margin: auto;
@@ -85,6 +89,8 @@ iframe {
 
 .blockImg {
   padding-right: 10px;
+  pointer-events: none;
+  /* padding-top: 50px */
 }
 
 .block {

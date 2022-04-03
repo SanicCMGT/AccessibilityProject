@@ -4,7 +4,6 @@
         position: absolute;
         color: white;
         width: 100%;
-        height: 50px;
         left: 0px;
         top: 0px;
         background-color: #26B4F4;
@@ -45,14 +44,11 @@
       
       
       /*Footer & Contact*/
-      #footer{
+      footer{
         margin-bottom: 0px;
         position: relative;
         width: 100%;
         height: 140px;
-        bottom: 0%;
-        background-color: #26B4F4;
-        color: white;
         gap: 50px;
         padding: 10px;
       }
