@@ -184,7 +184,6 @@ h2 {
   top: 0%;
   border:0px gray;
 }
-
 /* Forms */
 
 .formLabel {
@@ -193,7 +192,13 @@ h2 {
   text-align: left;
 }
 
-#pcInput {
+.formInput {
+  background-color: lightgray;
+  border: 2px solid lightgray;
+  border-radius: 4px;
+}
+
+/* #pcInput {
   background-color: lightgray;
 
 }
@@ -212,7 +217,7 @@ h2 {
 
 #dateInput {
   background-color: lightgray;
-}
+} */
 
 .volgendeBtn {
   background-color: #FF6C00;
