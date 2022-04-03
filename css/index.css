@@ -259,18 +259,18 @@ h2 {
 
 #toegangsHint {
   position: relative;
-  width: 251px;
-  height: 161px;
-  left: -70%;
+  width: 150px;
+  height: 150px;
+  left: -50%;
   top: 20%;
   background: rgba(196, 196, 196, 0.98);
   border-radius: 5px;
 }
 #meterstandHint {
   position: relative;
-  width: 251px;
-  height: 191px;
-  left: -70%;
+  width: 150px;
+  height: 150px;
+  left: -50%;
   top: 20%;
   background: rgba(196, 196, 196, 0.98);
   border-radius: 5px;

@@ -1,4 +1,4 @@
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 900px) {
 
     @font-face {
       font-family: 'Strada';
@@ -194,25 +194,25 @@
       /* Hints */
       #hintContainer {
         display: grid;
-        grid-template-columns: auto;
-        gap: 0px;
+        grid-template-columns: auto auto;
+        gap: 5px;
       }
       
       #toegangsHint {
         position: relative;
-        width: 151px;
+        width: 150px;
         height: 150px;
-        left: -200px;
-        top: 25px;
+        left: 0%;
+        top: 0%;
         background: rgba(196, 196, 196, 0.98);
         border-radius: 5px;
       }
       #meterstandHint {
         position: relative;
-        width: 151px;
+        width: 150px;
         height: 150px;
-        left: -200px;
-        top: 25px;
+        left: 0%;
+        top: 0%;
         background: rgba(196, 196, 196, 0.98);
         border-radius: 5px;
       }
