@@ -220,13 +220,23 @@ h2 {
 } */
 
 .volgendeBtn {
-  background-color: #FF6C00;
+  display:inline-block;
   width: fit-content;
-  text-align: center;
-  position: relative;
   left: 57%;
   width: 150px;
   height: 55px;
+}
+
+.vorigeBtn {
+  width: fit-content;
+  top: 65px;
+  width: 150px;
+}
+
+.volgendeBtn , .vorigeBtn {
+  background-color: #FF6C00;
+
+  display:inline-block;
   font-family: 'Strada';
   font-style: normal;
   font-weight: 900;
@@ -237,26 +247,9 @@ h2 {
   border: none;
   margin: 4px 2px;
   cursor: pointer;
-}
-
-.volgendeBtn , .vorigeBtn {
-  display:inline-block;
-  }
-
-.vorigeBtn {
-  background-color: #FF6C00;
-  width: fit-content;
-  text-align: center;
-  position: relative;
-  top: 65px;
-  width: 150px;
   height: 55px;
-  font-family: 'Strada';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 32px;
-  line-height: 37px;
-  color: #FFFFFF;
+  position: relative;
+  text-align: center;
 }
 
 /* Hints */
