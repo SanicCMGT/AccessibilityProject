@@ -155,9 +155,9 @@ h2 {
 
 .icon {
   position: relative;
-  left: 75%;
+  left: 69%;
   right: 66.94%;
-  top: 10.94%;
+  top: 0.94%;
   bottom: 75.1%;
 }
 
@@ -177,7 +177,7 @@ h2 {
 #formContainer {
   display: grid;
   position: relative;
-  width: 650px;
+  width: 450px;
   height: 450px;
   left: 440px;
   top: 10px;
@@ -218,7 +218,7 @@ h2 {
   width: fit-content;
   text-align: center;
   position: relative;
-  left: 500px;
+  left: 300px;
   width: 150px;
   height: 55px;
   font-family: 'Strada';
