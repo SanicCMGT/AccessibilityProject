@@ -162,7 +162,7 @@ h2 {
   position: relative;
   left: 50%;
   right: 66.94%;
-  top: 0.94%;
+  top: -20%;
   bottom: 75.1%;
 }
 
@@ -176,6 +176,7 @@ h2 {
   font-size: 60px;
   color: #000000;
   text-align: center;
+  top: -30%;
   left: -30%;
 }
 
