@@ -1,4 +1,4 @@
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1300px) {
 
     @font-face {
       font-family: 'Strada';
@@ -201,8 +201,8 @@
       #toegangsHint {
         position: relative;
         width: 150px;
-        height: 150px;
-        left: 0%;
+        height: 145px;
+        left: 20%;
         top: 0%;
         background: rgba(196, 196, 196, 0.98);
         border-radius: 5px;
@@ -210,8 +210,8 @@
       #meterstandHint {
         position: relative;
         width: 150px;
-        height: 150px;
-        left: 0%;
+        height: 145px;
+        left: 20%;
         top: 0%;
         background: rgba(196, 196, 196, 0.98);
         border-radius: 5px;
