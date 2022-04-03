@@ -20,6 +20,9 @@ body {
   margin: 0;
   width: 100vw;
   height: 100vh;
+  font-family: 'Strada';
+  font-weight: 300;
+  font-style: normal;
 
 }
 
@@ -72,8 +75,6 @@ iframe {
   align-items: center;
   text-align: center;
   display: grid;
-  
-
 }
 
 .blockImg,
@@ -224,9 +225,13 @@ h2 {
   font-family: 'Strada';
   font-style: normal;
   font-weight: 900;
-  font-size: 32px;
+  font-size: 18px;
   line-height: 37px;
   color: #FFFFFF;
+  border-radius: 5px;
+  border: none;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 .volgendeBtn , .vorigeBtn {

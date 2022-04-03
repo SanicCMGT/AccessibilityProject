@@ -1,22 +1,4 @@
   @media screen and (max-width: 1300px) {
-
-    @font-face {
-      font-family: 'Strada';
-      src: url('/fonts/Strada-Black.woff2') format('woff2'),
-          url('/fonts/Strada-Black.woff') format('woff');
-      font-weight: 900;
-      font-style: normal;
-      font-display: swap;
-    }
-    
-    @font-face {
-      font-family: 'Strada';
-      src: url('/fonts/Strada-Light.woff') format('woff2'),
-          url('/fonts/Strada-Light.woff') format('woff');
-      font-weight: 300;
-      font-style: normal;
-      font-display: swap;
-    }
       
       #header {
         position: absolute;
@@ -155,7 +137,7 @@
       }
       
       .volgendeBtn {
-        background-color: #FF6C00;
+        /* background-color: #FF6C00; */
         width: fit-content;
         text-align: center;
         position: relative;
