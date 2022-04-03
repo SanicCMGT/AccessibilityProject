@@ -142,8 +142,8 @@ h2 {
   position: absolute;
   width: 189px;
   height: 32px;
-  left: 630px;
-  top: 230px;
+  left: 32%;
+  top: 30%;
   font-family: 'Strada';
   font-style: normal;
   font-weight: 300;
@@ -155,7 +155,7 @@ h2 {
 
 .icon {
   position: relative;
-  left: 69%;
+  left: 50%;
   right: 66.94%;
   top: 0.94%;
   bottom: 75.1%;
@@ -171,16 +171,16 @@ h2 {
   font-size: 60px;
   color: #000000;
   text-align: center;
-  left: -125px;
+  left: -30%;
 }
 
 #formContainer {
   display: grid;
   position: relative;
-  width: 450px;
-  height: 450px;
-  left: 440px;
-  top: 10px;
+  width: 350px;
+  height: 350px;
+  left: 80%;
+  top: 0%;
   border:0px gray;
 }
 
@@ -218,7 +218,7 @@ h2 {
   width: fit-content;
   text-align: center;
   position: relative;
-  left: 300px;
+  left: 57%;
   width: 150px;
   height: 55px;
   font-family: 'Strada';
@@ -251,18 +251,18 @@ h2 {
 
 /* Hints */
 #hintContainer {
-  float: right;
+  float: left;
   display: grid;
   grid-template-columns: auto;
-  gap: 50px;
+  gap: 10px;
 }
 
 #toegangsHint {
   position: relative;
   width: 251px;
   height: 161px;
-  left: 400px;
-  top: 0px;
+  left: -70%;
+  top: 20%;
   background: rgba(196, 196, 196, 0.98);
   border-radius: 5px;
 }
@@ -270,8 +270,8 @@ h2 {
   position: relative;
   width: 251px;
   height: 191px;
-  left: 400px;
-  top: 0px;
+  left: -70%;
+  top: 20%;
   background: rgba(196, 196, 196, 0.98);
   border-radius: 5px;
 }
