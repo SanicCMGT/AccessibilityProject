@@ -30,6 +30,16 @@ iframe {
   border: 0px;
 }
 
+/*Skiplink to home page button added*/
+.screenreader-text:focus {
+  color: black;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  position: static;
+  margin: auto;
+}
+
 #accessBtn{
   position: absolute;
   width: 40px;
