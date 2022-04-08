@@ -41,13 +41,13 @@ function setupPage(){
     MOImg.classList.add("blockImg")
 
     mSImg.type = "image/svg+xml"
-    mSImg.data = "/assets/meterstand.svg"
+    mSImg.data = "assets/meterstand.svg"
     storingImg.type = "image/svg+xml"
-    storingImg.data = "/assets/storing.svg"
+    storingImg.data = "assets/storing.svg"
     newsImg.type = "image/svg+xml"
-    newsImg.data = "/assets/nieuws.svg"
+    newsImg.data = "assets/nieuws.svg"
     MOImg.type = "image/svg+xml"
-    MOImg.data = "/assets/account.svg"
+    MOImg.data = "assets/account.svg"
 
     mSBtn.addEventListener("click", setupMeterstandPage)
 
@@ -110,7 +110,7 @@ function addHeader() {
     header.id = "header"
     let body = document.getElementById("body")
     logoImg.type = "image/svg+xml"
-    logoImg.data = "/assets/oasen.svg"
+    logoImg.data = "assets/oasen.svg"
     header.appendChild(clickDiv)
     clickDiv.appendChild(logoImg)
     body.appendChild(header)
@@ -126,7 +126,7 @@ function setupMeterstandPage(){
     buttonContainer.innerHTML = ""
 
     let icon = document.createElement("object")
-    icon.data = "/assets/meterstand-black.svg"
+    icon.data = "assets/meterstand-black.svg"
     icon.type = "image/svg+xml"
     icon.classList.add("icon")
     let h1Meterstand = document.createElement("h1")
@@ -219,7 +219,7 @@ function setupMeterstandPage(){
 
     let meterstandHintImg = document.createElement("img")
     meterstandHintImg.id = "meterstandHintImg"
-    meterstandHintImg.src = "/assets/meterstand.png"
+    meterstandHintImg.src = "assets/meterstand.png"
     meterstandHintImg.alt = "uitleg over welke cijfers bedoelt worden op de meter."
     meterstandHintImg.addEventListener("click", enlargeImg)
 
