@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Strada';
-  src: url('/fonts/Strada-Black.woff2') format('woff2'),
-      url('/fonts/Strada-Black.woff') format('woff');
+  src: url('fonts/Strada-Black.woff2') format('woff2'),
+      url('fonts/Strada-Black.woff') format('woff');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
   font-family: 'Strada';
-  src: url('/fonts/Strada-Light.woff') format('woff2'),
-      url('/fonts/Strada-Light.woff') format('woff');
+  src: url('fonts/Strada-Light.woff') format('woff2'),
+      url('fonts/Strada-Light.woff') format('woff');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
